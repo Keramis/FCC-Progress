@@ -1,1 +1,4 @@
-Box shadow, some are optional options. Look it up.
+>Box shadow, some are optional options. Look it up.
+>:hover is a pseudo-class selector. For example, if you want an effect
+  when you hover over a link (anchor, or <a>), you could use:
+  a:hover {something}
