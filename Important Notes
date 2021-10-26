@@ -7,4 +7,8 @@
   elements will behave the same. You can move the element with position
   relative with (left, right, top, and bottom). Example:
     p {position: relative; bottom: 10px;}
+> (position: absolute;) locks the element in place relative to its parent
+  container. !!IMPORTANT. For the parent container, make a (position) CSS
+  (often with position: relative) or the browser will keep looking up the
+  chain and end up with the <body> element to tag it to.
 >
