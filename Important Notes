@@ -11,4 +11,8 @@
   container. !!IMPORTANT. For the parent container, make a (position) CSS
   (often with position: relative) or the browser will keep looking up the
   chain and end up with the <body> element to tag it to.
->
+> (position: fixed;) locks the element in place relative to the entire
+  browser window. !! This means it won't move, even if you scroll!
+  (Navigation bar) Other elements won't realize it's there, so it 
+  WILL overlap with others, since it doesn't exist for them.
+> 
