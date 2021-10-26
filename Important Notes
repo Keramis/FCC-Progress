@@ -1,4 +1,10 @@
->Box shadow, some are optional options. Look it up.
->:hover is a pseudo-class selector. For example, if you want an effect
+> Box shadow, some are optional options. Look it up.
+> :hover is a pseudo-class selector. For example, if you want an effect
   when you hover over a link (anchor, or <a>), you could use:
   a:hover {something}
+> (position: relative;) is very useful when wanting to position items.
+  the code treats it as if it's still in it's default position, so other
+  elements will behave the same. You can move the element with position
+  relative with (left, right, top, and bottom). Example:
+    p {position: relative; bottom: 10px;}
+>
