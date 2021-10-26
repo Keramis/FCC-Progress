@@ -15,4 +15,7 @@
   browser window. !! This means it won't move, even if you scroll!
   (Navigation bar) Other elements won't realize it's there, so it 
   WILL overlap with others, since it doesn't exist for them.
+> !!!VERY IMPORTANT: when elements are overlapping (i.e. using the (position)
+  CSS), you can set different elements to overlap by using WHOLE NUMBERS (not decimals)
+  by using the property (z-index: <value>). (Like the z-order in Geometry Dash)
 > 
