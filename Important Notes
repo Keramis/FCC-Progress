@@ -20,4 +20,10 @@
   by using the property (z-index: <value>). (Like the z-order in Geometry Dash)
 > !!VERY IMPORTANT: Center a block element (like <div>) by using
   (margin: auto;).
-> 
+> Navbars should have a similar but slightly different color that their respective
+  elementt background to look good. This can be accomplished easily by using
+  the (hsl(<value>, <percentage>, <percentage>)) element.
+  h = hue (what color)
+  s = saturation (how much gray) (100% fully saturated, full color)
+  l = lightness (how much black or white) (50% normal color)
+>  
