@@ -26,4 +26,7 @@
   h = hue (what color)
   s = saturation (how much gray) (100% fully saturated, full color)
   l = lightness (how much black or white) (50% normal color)
->  
+> !!VERY IMPORTANT: you can use gradients for an element. This is done with the
+  "background" property of an element. Here's an example:
+  (background: linear-gradient(35deg, #CCFFFF, #FFCCCC);)
+  RAW: (background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);)
