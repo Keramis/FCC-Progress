@@ -30,3 +30,6 @@
   "background" property of an element. Here's an example:
   (background: linear-gradient(35deg, #CCFFFF, #FFCCCC);)
   RAW: (background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);)
+> ! The background property has the (url) option, which allows you to add texture to
+  your background.
+> 
