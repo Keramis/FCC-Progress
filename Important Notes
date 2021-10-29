@@ -32,4 +32,6 @@
   RAW: (background: linear-gradient(gradient_direction, color 1, color 2, color 3, ...);)
 > ! The background property has the (url) option, which allows you to add texture to
   your background.
+> With the (:hover) pseudo-class, you can make things bigger when you hover over them.
+  Useful for makinging interactive buttons and such.
 > 
