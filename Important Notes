@@ -34,4 +34,8 @@
   your background.
 > With the (:hover) pseudo-class, you can make things bigger when you hover over them.
   Useful for makinging interactive buttons and such.
+> All animation properties are very useful for making responsive webpages. Research them.
+  They can be used with buttons, ex: if you hover over them
+  (animation-fill-mode: forwards) can be used to make the animation stop at the end
+  (like hovering over a button, not make the animation restart when it ends)
 > 
