@@ -1,3 +1,64 @@
+--IMPORTED FROM LOCAL NOTES--
+
+Important stuff from HTML freecodecamp:
+> Putting "#<id>" in an HREF in <a> element makes you go to that ID in the page.
+> Putting "#" in an HREF in <a> element makes a dead link.
+> Putting "_blank" in a TARGET in <a> element makes that link open a new tab.
+> Putting an image element in <a> element makes that image now a link.
+> Radio button (input type "radio) is a button that deselects buttons that have the same group, or "name".
+This, for example: <input type="radio" name="indoor-outdoor"> This "name" attribute is needed for radio buttons
+that you need deselected from one another.
+>>Usually, radio buttons are within a <label>. This label should have the same ID as the input, so that
+enhancing software can catch it. For IDs on LABELS, you need a "for" element. Example: <label for="<nameofID>">
+
+CSS:
+> .<input> is for class, while;
+>> <type>.<input> will only CSS for that class of that input. Example:
+	(p.center) will only apply to paragraphs that have the "center" class.
+> #<input> is for ID.
+> * is a universal selector. Ex: * {something} will make it for all.
+> <type> is a selector for all that type.
+	Ex: p {something} will apply to all paragraphs.
+> Apply multiple classes just by adding a space in between.
+	Ex: <img class="class1 class2">
+> An ID is more important than a class, so if a class and ID have differing
+	elements, the ID CSS will take priority.
+> Padding works clockwise, so you don't have to do "padding-top", "padding-right"
+	and so on. Instead, just do: (padding: 1px 2px 3px 4px) these work clockwise,
+	e.g. top, right, bottom, left.
+>> Margin works the same way, clockwise.
+> Selecting all that match an attribute 'type' is done:
+	[type='<type>'] {something}
+	e.g. done with buttons like this:
+	[type='radio'] {something} to select all radio buttons.
+> CSS classes override each other by their sequence; so in the styles, if it looks like:
+	class1{}
+	class2{}
+	class 2 will override class1.
+> CSS IDs override classes.
+> You can force override by using "!important":
+	thing{color: red !important;}
+> CSS classes can be defined as such:
+	--<var>: <value>;
+	example: --penguin-skin: gray;
+> CSS variables can be called as such:
+	<thing>: var(<var>);
+	example: background: var(--penguin-skin)
+> You can create a fallback on a variable just like with fonts.
+	Example: background: var(--penguin-skin, black);
+	just put a comma for fallback.
+>> Fallbacks for older browsers can be created if they don't support variables.
+	This is very simple. Just put the fallback BEFORE the variable, and, since CSS
+	is sequential, if the browser sees the variable, it overrides the previous fallback.
+	If it doesn't, it applies the fallback.
+> By creating CSS variables in the :root ""pseudo-class"", they will be available to access
+	globally and from any other selector in the style sheet.
+	Ex: :root {--var1: <value>;}
+>> Over-write the root variables by setting them within a specific element.
+	Ex: :root {--penguin-belly: pink;}
+		.penguin {--penguin-belly: white;}
+
+--END OF IMPORTED--
 > Box shadow, some are optional options. Look it up.
 > :hover is a pseudo-class selector. For example, if you want an effect
   when you hover over a link (anchor, or <a>), you could use:
