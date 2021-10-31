@@ -99,4 +99,4 @@ CSS:
   They can be used with buttons, ex: if you hover over them
   (animation-fill-mode: forwards) can be used to make the animation stop at the end
   (like hovering over a button, not make the animation restart when it ends)
-> 
+> <div> - groups content <section> - groups related content <article> - groups independent, self-contained content
