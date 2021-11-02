@@ -101,3 +101,4 @@ CSS:
   (like hovering over a button, not make the animation restart when it ends)
 > <div> - groups content <section> - groups related content <article> - groups independent, self-contained content
 > The value of the (for) attribute (on labels) must be the same as the value of the (id) attribute (on (input)) of the form control
+> Use the (fieldset) and the (legend) tags for forms (radio buttons). Research this.
